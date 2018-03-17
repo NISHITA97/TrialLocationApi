@@ -3,12 +3,9 @@ package com.example.android.triallocationapi.Model;
 /**
  * Created by Nishita Aggarwal on 15-03-2018.
  */
-import com.google.gson.annotations.SerializedName;
-public class District {
-    @SerializedName("pincode")
-    String pincode;
 
-    @SerializedName("districtname")
+public class District {
+    String pincode;
     String district;
 
     public String getPincode() {
